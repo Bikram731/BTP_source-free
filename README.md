@@ -10,12 +10,12 @@
 [cite_start]The core algorithm is based on **Two-Stage Pseudo-Supervised Learning**, enhanced with a custom **Fast Fourier Transform (FFT) preprocessing pipeline** to resolve sensor modality conflicts and isolate Gear Mesh Frequencies[cite: 1045, 1052].
 
 ### Key Features
-* [cite_start]**Source-Free Adaptation:** Adapts a pre-trained model to a new machine using only unlabeled target data[cite: 986].
-* [cite_start]**FFT Preprocessing:** Converts noisy time-domain signals into frequency-domain spectral peaks to eliminate negative transfer[cite: 1050].
+* **Source-Free Adaptation:** Adapts a pre-trained model to a new machine using only unlabeled target data[cite: 986].
+* **FFT Preprocessing:** Converts noisy time-domain signals into frequency-domain spectral peaks to eliminate negative transfer[cite: 1050].
 * **Two-Stage Learning:**
-    1.  [cite_start]**Alignment:** Uses Semi-Supervised Clustered KNN (SSCKNN) to generate initial pseudo-labels[cite: 1013].
-    2.  [cite_start]**Refinement:** Applies Adaptive Thresholding and Contrastive Learning to filter noise[cite: 1014].
-* [cite_start]**High Performance:** Achieved **89.22% accuracy** (Unsupervised), recovering **97%** of the supervised upper bound performance.
+    1.  **Alignment:** Uses Semi-Supervised Clustered KNN (SSCKNN) to generate initial pseudo-labels[cite: 1013].
+    2.  **Refinement:** Applies Adaptive Thresholding and Contrastive Learning to filter noise[cite: 1014].
+* **High Performance:** Achieved **89.22% accuracy** (Unsupervised), recovering **97%** of the supervised upper bound performance.
 
 ---
 
